@@ -6,9 +6,6 @@ public class Square extends TwoDimensionalShape {
         this.sideLength = sideLength;
     }
 
-    public double getSideLength() {
-        return sideLength;
-    }
     public double getArea() {
         return sideLength * sideLength;
     }
